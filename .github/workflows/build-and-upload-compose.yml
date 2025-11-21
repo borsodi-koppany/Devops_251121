@@ -9,6 +9,8 @@ on:
   pull_request:
     branches: 
       - main
+    paths:
+      - compose.yaml
 
   workflow_dispatch:
 
@@ -17,8 +19,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    
 
     steps:
     - uses: actions/checkout@v4
