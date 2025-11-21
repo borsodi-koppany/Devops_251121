@@ -12,7 +12,7 @@ on:
     paths:
       - compose.yaml
 
-  workflow_dispatch:
+  workflow_dispatch: # akkor fut le újra ha változik a compose fájl, különben manuálisan is elindítható githubon
 
 jobs:
 
